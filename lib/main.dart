@@ -23,10 +23,18 @@ class _DiceAppState extends State<DiceApp> {
       home: Scaffold(
           backgroundColor: Colors.white70,
           appBar: AppBar(
-            backgroundColor: Colors.blueGrey,
+            backgroundColor: Colors.blue,
             title:Center(child: Text('Dice App' ))
           ),
-          body: Center(
+    body: Container(
+    // Set the background image
+    decoration: BoxDecoration(
+    image: DecorationImage(
+    image: AssetImage('images/bg.jpg'), // Your background image
+    fit: BoxFit.cover, // Make the image cover the entire background
+    ),
+    ),
+          child: Center(
             child: Row(
               children: [
                 Expanded(
@@ -59,7 +67,7 @@ class _DiceAppState extends State<DiceApp> {
 
           // Embedding DiceApp here to display in the body
           ),
-    );
+    ));
   }
 }
 

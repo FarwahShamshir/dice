@@ -62,6 +62,7 @@ flutter:
      - images/dice4.jpg
      - images/dice5.jpg
      - images/dice6.jpg
+     - images/bg.jpg
 
   # Documentation links for assets and fonts are correct and can be referred as needed.
 
